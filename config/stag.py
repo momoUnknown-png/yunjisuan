@@ -47,3 +47,5 @@ if FRONTEND_BACKEND_SEPARATION:
     MIDDLEWARE = ("corsheaders.middleware.CorsMiddleware",) + MIDDLEWARE
     CORS_ORIGIN_ALLOW_ALL = True
     CORS_ALLOW_CREDENTIALS = True
+
+BK_STATIC_URL = "/stag--sysu-23336048-1"

@@ -13,7 +13,7 @@ specific language governing permissions and limitations under the License.
 
 from django.http import JsonResponse
 from django.shortcuts import render
-from flask import request
+# from flask import request
 
 from blueking.component.shortcuts import get_client_by_request
 
